@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Astronautas</title>
+</head>
+
+<body>
+    <h3>Cadastro da lida dos astronautas</h3>
+
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name"><br><br>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password"><br><br>
+        </div>
+        <div>
+            <label for="birthday">Data de Nascimento:</label>
+            <input type="date" name="birthday" id="birthday">
+            <label for="file">Foto:</label>
+            <input type="file" name="file" id="file"><br><br>
+        </div>
+        <div>
+            <label for="nationality">Nacionalidade:</label>
+            <select name="nationality" id="nationality">
+                <option value="russian">Russa</option>
+                <option value="American">Americano</option>
+                <option value="brasilian">Brasileiro</option>
+            </select> Genero:
+            <label for="female">F</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="male">M</label>
+            <input type="radio" name="gender" value="male" id="male">
+        </div>
+        <br>
+        <div>
+            <p>Suas principais qualidades:</p>
+            <label for="int">Inteligência</label>
+            <input type="checkbox" name="int" id="int">|
+            <label for="res">Resiliência</label>
+            <input type="checkbox" name="res" id="res">|
+            <label for="physic">Preparo Físico</label>
+            <input type="checkbox" name="phisyc" id="phisyc">|
+            <label for="edu">Educação</label>
+            <input type="checkbox" name="edu" id="edu">
+        </div>
+        <div>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você gostaria de ser astronauta?"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
